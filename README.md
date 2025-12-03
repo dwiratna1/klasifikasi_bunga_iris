@@ -39,7 +39,7 @@ Dataset berisi:
 ## 🧠 Metode Klasifikasi
 
 Model Machine Learning yang digunakan:
-- K-Nearest Neighbor (KNN) **atau sesuai model kamu**
+- K-Nearest Neighbor (KNN) 
 - Dataset dibagi menjadi train dan test
 - Model dilatih, kemudian disimpan dalam file `iris_model.pkl`
 - Model dipanggil oleh aplikasi Streamlit untuk prediksi realtime
@@ -47,4 +47,5 @@ Model Machine Learning yang digunakan:
 ---
 
 ## 🗂️ Struktur Folder
+
 

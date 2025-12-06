@@ -11,10 +11,10 @@ st.title("🌸 Iris Flower Classification App")
 st.write("Aplikasi ini memprediksi jenis bunga Iris berdasarkan parameter ukuran bunga.")
 
 # Input fitur
-sepal_length = st.number_input("Panjang Kelopak (cm)", min_value=0.0, max_value=10.0, value=5.0)
-sepal_width = st.number_input("Lebar Kelopak (cm)", min_value=0.0, max_value=10.0, value=3.0)
-petal_length = st.number_input("Panjang Mahkota (cm)", min_value=0.0, max_value=10.0, value=4.0)
-petal_width = st.number_input("Lebar Mahkota (cm)", min_value=0.0, max_value=10.0, value=1.2)
+sepal_length = st.number_input("Panjang Sepal (cm)", min_value=0.0, max_value=10.0, value=5.0)
+sepal_width = st.number_input("Lebar Sepal (cm)", min_value=0.0, max_value=10.0, value=3.0)
+petal_length = st.number_input("Panjang Kelopak (cm)", min_value=0.0, max_value=10.0, value=4.0)
+petal_width = st.number_input("Lebar Kelopak (cm)", min_value=0.0, max_value=10.0, value=1.2)
 
 # Tombol prediksi
 if st.button("Prediksi"):
